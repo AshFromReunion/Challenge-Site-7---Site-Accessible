@@ -1,6 +1,9 @@
 body {
   font-family: "Open Sans", Arial, sans-serif; }
 
+.no-padding {
+  padding: 0; }
+
 .espace-bottom {
   margin-bottom: 30px;
   margin-top: 0; }
@@ -116,6 +119,12 @@ aside p {
 
 .largeur-input {
   width: 100%; }
+
+.form-horizontal .control-label {
+  text-align: left; }
+
+#inputChecked {
+  margin: 0; }
 
 /* fin aside */
 /* MEDIA QUERIES */
