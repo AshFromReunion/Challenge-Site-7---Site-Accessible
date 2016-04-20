@@ -1,0 +1,182 @@
+$color-secondaire: #f2f2f2;
+$color-primaire: #b5ce00;
+$color-3: #d9d9d9;
+$marge: 30px;
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.espace-bottom {
+    margin-bottom: $marge;
+    margin-top: 0;
+}
+
+hr {
+    border: 1px solid $color-3;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* debut menu de navigation */
+
+nav .navbar-nav li:hover {
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.background-nav {
+    background-color: $color-primaire;
+}
+
+
+/* fin menu de navigation */
+
+
+/* debut header */
+
+header {
+    background-color: $color-secondaire;
+    margin-bottom: $marge;
+    padding: $marge 0;
+}
+
+
+/* fin header */
+
+
+/* debut page */
+
+#page {
+    margin-bottom: $marge;
+}
+
+.bordure {
+    border-right: 2px solid $color-3;
+}
+
+.orange {
+    position: relative;
+    top: 2px;
+    z-index: 1;
+    left: 10px;
+    background-color: orange;
+    padding: 6px 8px;
+    color: white;
+    font-size: 10px;
+}
+
+.vert {
+    position: relative;
+    top: 1px;
+    z-index: 1;
+    left: 10px;
+    background-color: $color-primaire;
+    padding: 6px 8px;
+    color: white;
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+h2 a,
+h2 a:hover {
+    color: black;
+}
+
+h3 {
+    background-color: $color-primaire;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+}
+
+time {
+    font-size: 12px;
+}
+
+.position-image-article {
+    position: relative;
+    bottom: 20px;
+}
+
+
+/* fin page */
+
+
+/* debut aside */
+
+aside {
+    color: #818284;
+}
+
+.container .btn-default {
+    border-radius: 0;
+    background-color: #f9f9f9;
+    color: #818284;
+}
+
+.espace-checkbox {
+    padding: 15px 0 0 0;
+}
+
+.espace-identification {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+aside a {
+    color: #19232d;
+}
+
+h4 {
+    color: #1c262f;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+aside p {
+    font-size: 11px;
+}
+
+.largeur-input {
+    width: 100%;
+}
+
+
+/* fin aside */
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:991px) {
+    body {
+        text-align: center;
+    }
+    .bordure {
+        border: none;
+    }
+    .orange,
+    .vert {
+        left: 0;
+    }
+}
